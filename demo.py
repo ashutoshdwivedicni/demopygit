@@ -1,6 +1,12 @@
-a=print(int("Enter the first number:"))
-b=print(int("Enter the second number:"))
-print("addition:",a+b)
-print("subtraction:",a-b)
-print("multiplication:",a*b)
-print("division:",a/b)
+a=input("Enter the first number:" )
+b=input("Enter the second number:" )
+a=int(a)
+b=int(a)
+c=a+b
+d=a-b
+e=a*b
+f=a//b
+print("addition:",c)
+print("subtraction:",d)
+print("multiplication:",e)
+print("division:",f)
